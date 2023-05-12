@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="csstrangcon.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="TC">
+            <h4>TRANG CHỦ</h4>
+                </div>
+                <div class="TD">
+            <h4>THỰC ĐƠN</h4>
+                </div>
+                <div class="VCT">
+            <h4>VỀ CHÚNG TÔI</h4>
+                </div>
+                <div class="DV">
+            <H4>DỊCH VỤ</H4>
+                </div>
+                <div class="avt">
+            <img width="40px" src="./anh/avata.png" alt="">
+                </div>
+                <div class="shop">
+                   <img width="40px"  src="./anh/shopping-bag.png" alt="">
+                </div>
+                <div class="logo">
+                    <img width="40px" src="./anh/logo2.png" alt="">
+                </div>
+    </header>
+    <article>
+        <div class="q1">
+            <div class="luui">
+                <h2>Lưu ý    :</h2>
+            </div>
+            <div class="luuy">
+                <textarea name="" id="" cols="15" rows="5"></textarea>
+                        </div>
+                        <div class="gia1">
+                            <h2> Giá : <span id="tonggia"></span></h2>
+                        </div>
+                        <div class="dvtt">
+<h2 style="color: red;">Đồng</h2>
+                        </div>
+                        
+<div class="non">
+    
+<img id="hinh" width="600px" height="400px" src="anh/trái dứa.name)" alt="">
+<br>
+<div class="ccc">
+    <img width="120px" height="90px" src="anh/trái dâu.name)" onclick="ga(this)" alt="">
+</div>
+<div class="cccc">
+    <img width="120px" height="90px" src="anh/trái dứa.name) " onclick="ga(this)" alt="">
+</div>
+<div class="ccccc">
+    <img width="120px" height="90px" src="anh/dâu tằm.name)" onclick="ga(this)" alt="">
+</div>
+</div>
+
+
+    </div>
+    <div class="kc">
+        <h2>Kích thước :</h3>
+            <div class="kt1">
+        <button  class="kt11"> Nhỏ</button>
+            </div>
+            <div class="kt2">
+                <button  class="kt11" >  Lớn</button>
+            </div>
+        </div>
+        <div class="sl">
+<h2>Số lượng</h2>
+<div class="daucong">
+    <button style="padding: 8px 13px; background-color: white; " onclick="cong()" >+</button>
+</div>
+<div class="dautru">
+    <button style="padding: 8px 15px; background-color: white;" onclick="tru()" >-</button>
+</div>
+<div class="ip">
+<input id="cc" data-price="150000"  style="width: 70px; height: 30px;"  type="number" value="0" >
+</div>
+        </div>
+       
+    <div class="chu3">
+        <h1 style="font-size: 40px; font-weight: bold; color: white; text-shadow: 0px 0px 3px red;" > DÂU TÂY </h1>
+        </div>
+        </div>
+        <div class="q2">
+            <div  > <img width="400px" height="270px" src="anh/trái dứa.name)" alt=""></div>
+            <div class="chu3">
+                <h1 style="font-size: 40px; font-weight: bold; color: white; text-shadow: 0px 0px 3px red;" >QUẢ DỨA  </h1>
+                </div>
+                <div class="chu4"> <h3 style="font-size: 18px; color: black; text-shadow: 0px 0px 3px red; ">
+                    Dứa chứa nhiều loại vitamin và khoáng chất như: vitamin A, vitamin C,<br>
+                     vitamin B6, folate, sắt, kẽm, canxi, mangan... <br>
+                      Trong đó, vitamin C rất cần thiết cho sự tăng trưởng, <br>
+                       đồng thời giúp hệ miễn dịch khỏe mạnh và
+                       <br> hấp thu sắt từ bữa ăn hàng ngày.    
+                </h3></div>
+                <div class="kpt2">
+                    <h2 style="color: black; font-size: 19px; border: 1px solid black;">KHÁM PHÁ THÊM</h2>
+                        </div>
+        </div>
+        <div class="q3">
+            <div class="dau"  > <img width="400px" height="270px" src="anh/trái dứa.name) " alt=""></div>
+            <div class="chu1">
+                <h1 style="font-size: 40px; font-weight: bold; color: white; text-shadow: 0px 0px 3px red;" > QUẢ DỨA  </h1>
+                </div>
+                <div class="chu2"> <h3 style="font-size: 17px; color: black; text-shadow: 0px 0px 3px red; " >
+                    Giúp tiêu hoá dễ dàng: Ăn dứa rất hữu ích cho  <br>
+                      những người bị suy tuyến tụy không thể tạo đủ các enzyme tiêu hoá
+                </h3>
+             </div>
+             
+             <div class="kpt1">
+                <h2 style="color: black; font-size: 19px; border: 1px solid black;">KHÁM PHÁ THÊM</h2>
+                    </div>
+        </div>
+    </article>
+    <script>
+        function ga(x){
+            document.getElementById("hinh").src = x.src
+        }
+        var pro =  document.getElementById("cc")
+          pros = pro.value
+        function cong(){
+         pros++
+         gay(pros)
+         tinhgia()
+        }
+        function tru(){
+            pros--
+            gay(pros)
+            tinhgia()
+        }
+        function gay(pros)
+        {
+            pro.value = pros
+        }
+        function tinhgia() {
+            var ga = document.getElementById("cc")
+            var gia = ga.getAttribute("data-price")
+            var soluong = document.getElementById("cc").value
+            var tonggia = gia* soluong
+            document.getElementById("tonggia").innerText = tonggia
+        }
+    </script>
+</body>
+</html>

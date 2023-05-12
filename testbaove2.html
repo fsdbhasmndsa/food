@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #loic1{position: absolute;
+    top: 100px;
+    left: 100px;}
+</style>
+<body>
+    <form action="">
+        <input id="mycheckbox" type="checkbox">javascript  <input id="c2" type="checkbox">java   <input  id="c3" type="checkbox">wed
+    </form>
+    <div id="loic1"></div>
+    <button onclick="kiemtra()">submit</button>
+</body>
+</html>
+<script>
+    function kiemtra() {
+      var checkbox = document.getElementById("mycheckbox");
+      if(checkbox.checked ==false)  {
+        alert("chọn một checkbox is not checked")
+      }
+      else{
+        alert("bạn đã chọn")
+      }
+    }
+</script>

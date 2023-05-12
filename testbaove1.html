@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center><img onmouseover="vo()" onmouseout="ra()" id="hinh" width="400px" src="anh/trái dâu.name)" alt=""></center>
+    <hr>
+    <button onclick="an()">ẩn </button> <button onclick="hien()">hiện</button>
+</body>
+</html>
+<script>
+function vo(){
+    document.getElementById("hinh").src = "anh/trái lựu.name)"
+}
+function ra(){
+    document.getElementById("hinh").src = "anh/trái dâu.name)"
+}
+function an() {
+    document.getElementById("hinh").style.display="none"
+}
+function hien() {
+    document.getElementById("hinh").style.display="block"
+}
+
+</script>

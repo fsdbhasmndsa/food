@@ -1,0 +1,241 @@
+header{
+  
+    width: 100%;
+    height: 70px;
+    background-color: aqua;
+}
+.TC{
+    position: absolute;
+    top: 20px;
+    left: 500px;
+   
+}
+
+.TD{
+    position: absolute;
+    top: 20px;
+    left: 650px;
+}
+.VCT{
+    position: absolute;
+    top: 20px;
+    left: 780px;
+}
+.DV{
+    position: absolute;
+    top: 20px;
+    left: 1000px;
+}
+.avt{
+    position: absolute;
+    top: 22px;
+    left: 1250px; 
+}
+article{
+    position: absolute;
+    top: 70px;
+    width: 100%;
+    height: 3800px;
+    background-color: whitesmoke;
+}
+.shop img{
+    position: absolute;
+    top: 20px;
+    left: 1150px;
+}
+.logo{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+.TC:hover{
+    
+    color: red;
+    }
+    .TD:hover{
+        color: red;
+        }
+        .VCT:hover{
+            color: red;
+        }
+        .DV:hover{
+            color: red;
+        }   
+
+        article{
+            width: 100%;
+            height: 700px;
+         
+            position: absolute;
+            top: 70px;
+        }  
+        .q1{
+            width: 100%;
+            height: 500px;
+           
+           
+            background-image: url(anh/br2.jpg);
+        }      
+        .dau{
+            position: absolute;
+            top: 10px;
+            left: 780px;
+        }
+        .q2{
+            width: 100%;
+            height: 300px;
+           position: absolute;
+           top: 500px;
+           
+            background-image: url(anh/td2.jpg);
+        }    
+        .q3{
+            width: 100%;
+            height: 300px;
+           position: absolute;
+           top: 800px;
+           
+            background-image: url(anh/br2.jpg);
+        }   
+        .chu1{
+            position: absolute;
+            top: 5px;
+            left: 130px;
+        }  
+        .chu2{
+            position: absolute;
+            top: 90px;
+            left: 130px;
+        } 
+        .kpt1{
+            position: absolute;
+            top: 230px;
+            left: 170px; 
+        } 
+        .chu3{
+            position: absolute;
+            top: 5px;
+            left: 730px;
+        }   
+        .chu4{
+            position: absolute;
+            top: 90px;
+            left: 730px;
+        }
+        .kpt2{
+            position: absolute;
+            top: 230px;
+            left: 770px; 
+        } 
+        .mua{
+            position: absolute;
+            top: 260px;
+            left: 1230px; 
+        }
+        .nut{
+            padding: 8px 30px;
+            border-radius: 2px;
+            border: none;
+            background-color: blue;
+            color: white;
+        }
+.ccc{
+    position: absolute;
+    top: 400px;
+    left: 40px;
+    width: 130px;
+    height: 95px;
+    background: rgba(355,355,355,0.6);
+    border-radius: 3px;
+}
+.cccc{
+    position: absolute;
+    top: 400px;
+    left: 190px;
+    width: 130px;
+    height: 95px;
+    background: rgba(355,355,355,0.6);
+    border-radius: 3px;
+}
+.ccccc{
+    position: absolute;
+    top: 400px;
+    left: 340px;
+    width: 130px;
+    height: 95px;
+    background: rgba(355,355,355,0.6);
+    border-radius: 3px;
+}
+.kc{
+    position: absolute;
+    top: 120px;
+    left: 650px;
+}
+.kt1{
+    position: absolute;
+    top: 15px;
+    left: 210px;
+}
+.kt2{
+    position: absolute;
+    top: 15px;
+    left: 340px;
+}
+.kt11{
+    background-color: white;
+     padding: 8px 40px; border: none;
+}
+.kt11:focus{
+   background-color: blue;
+    color: white;
+}
+.sl{
+    position: absolute;
+    top: 200px;
+    left: 650px;
+}
+.dautru{
+    position: absolute;
+    top: 15px;
+    left: 240px;
+}
+.ip{
+    position: absolute;
+    top: 15px;
+    left: 280px;
+}
+.daucong{
+    position: absolute;
+    top: 15px;
+    left: 360px;
+}
+.luui{
+    position: absolute;
+    top: 270px;
+    left: 650px;
+}
+.luuy{
+    position: absolute;
+    top: 290px;
+    left: 850px; 
+}
+.gia1{
+    position: absolute;
+    top: 390px ;
+    left: 650px;
+}
+.dvtt{
+    position: absolute;
+    top: 390px ;
+    left: 790px;
+}
+.HG{
+    position: absolute;
+    top: 430px;
+    left: 990px;
+}
+.hg{
+    padding: 8px 40px;
+  background-color: blue;
+  color: white;
+}

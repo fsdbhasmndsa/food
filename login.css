@@ -1,0 +1,122 @@
+.br{
+    width: 520px;
+    height: 450px;
+    position: absolute;
+   top: 90px;
+   left: 450px;
+   background: rgba(355,355,355,0.2);
+   border-radius: 10px;
+}
+.logo{
+    position: absolute;
+    top: 30px;
+    left: 30%;
+}
+.ten{
+    position: absolute;
+    top: 59px;
+    left: 45%;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.dc{
+    position: absolute;
+    top: 110px;
+    left: 30%;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.ip1{
+    position: absolute;
+    top: 210px;
+    left: 30%; 
+    border-bottom: 1px solid #fff;
+}
+.ip2{
+    background:  transparent;
+    outline: 0;
+    border: 0;
+}
+.ip3{
+    position: absolute;
+    top: 265px;
+    left: 30%; 
+    border-bottom: 1px solid #fff;
+}
+.ip4{
+    background:  transparent;
+    outline: 0;
+    border: 0;
+}
+input{
+    width: 200px;
+    height: 30px;
+}
+.submit{
+    position: absolute;
+    top: 335px;
+    left: 30%;
+}
+.sm1{
+    background: transparent;
+border:  1px solid #fff;
+padding: 9px 20px;
+width: 200px;
+
+}
+.sm1:hover{
+    border:  1px solid #54a0ff; 
+    color: white;
+}
+.ip1:hover{
+   border-bottom:   1px solid #54a0ff; 
+}
+.ip3:hover{
+    border-bottom:   1px solid #54a0ff; 
+}
+.ip2:focus{
+    border-bottom:   1px solid red; 
+ }
+ .ip4:focus{
+     border-bottom:   1px solid red; 
+ }
+#erro{
+    position: absolute;
+    top: 250px;
+    left: 32%;
+    color: red;
+}
+#loi{
+    position: absolute;
+    top: 310px;
+    left: 32%;
+    color: red;
+}
+.dk{
+    background: transparent;
+    border:  1px solid #fff;
+    padding: 9px 20px;
+    width: 200px;
+}
+.logup{
+    position: absolute;
+    top: 490px ;
+    left: 607px;
+}
+.dk:hover{
+    border:  1px solid #54a0ff; 
+    color: white;
+}
+.username1{
+    position: absolute;
+    top:215px ;
+    left: 22%;
+}
+.pasword1{
+    position: absolute;
+    top:270px ;
+    left: 22%;
+
+}

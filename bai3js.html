@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img onmouseover="on()" onmouseout="out()" id="hinh" src="anh/s0.jpg" alt="">
+    <hr>
+    <button onclick="firt()">firt</button> <button onclick="prev()">prev</button> <button onclick="next()">next</button>  <button onclick="last()">last</button>
+</body>
+</html>
+<script>
+    var mang_hinh = ["anh/s2.jpg",
+    "anh/s3.jpg",
+    "anh/s6.jpg",
+    "anh/s1.jpg"]
+    var index = 0;
+    function next() {
+        index++;
+        if (index == mang_hinh.length)
+        {
+            index =0;
+        }
+        document.getElementById("hinh").src = mang_hinh[index];
+    }
+    function prev() {
+        index--;
+        if (index == 0)
+        {
+            index = mang_hinh.length-1;
+        }
+        document.getElementById("hinh").src = mang_hinh[index];
+    }
+function firt(){
+    document.getElementById("hinh").src = "anh/s1.jpg"
+}function last(){
+    document.getElementById("hinh").src = "anh/s0.jpg"
+}
+function on(){
+    document.getElementById("hinh").src = "anh/s2.jpg"
+}
+function out(){
+    document.getElementById("hinh").src = "anh/s6.jpg"
+}
+</script>

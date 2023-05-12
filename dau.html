@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="csstrangcon.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="TC">
+           <a style="text-decoration: none; " href="trangchu.html"><h4>TRANG CHỦ</h4></a>
+                </div>
+                <div class="TD">
+            <h4>THỰC ĐƠN</h4>
+                </div>
+                <div class="VCT">
+            <h4>VỀ CHÚNG TÔI</h4>
+                </div>
+                <div class="DV">
+            <H4>DỊCH VỤ</H4>
+                </div>
+                <div class="avt">
+            <img width="40px" src="./anh/avata.png" alt="">
+                </div>
+                <div class="shop">
+                   <img width="40px"  src="./anh/shopping-bag.png" alt="">
+                </div>
+                <div class="logo">
+                    <img width="40px" src="./anh/logo2.png" alt="">
+                </div>
+    </header>
+    <article>
+       
+        <div class="q1">
+            <div class="luui">
+                <h2>Lưu ý    :</h2>
+            </div>
+            <div class="luuy">
+                <textarea name="" id="" cols="15" rows="5"></textarea>
+                        </div>
+                        <div class="gia1">
+                            <h2> Giá : <span id="tonggia"></span></h2>
+                        </div>
+                        <div class="dvtt">
+<h2 style="color: red;">Đồng</h2>
+                        </div>
+                        
+<div class="non">
+    
+<img id="hinh" width="600px" height="400px" src="anh/trái dâu.name)" alt="">
+<br>
+<div class="ccc">
+    <img width="120px" height="90px" src="anh/dau-tay-removebg-preview.png" onclick="ga(this)" alt="">
+</div>
+<div class="cccc">
+    <img width="120px" height="90px" src="anh/dau-removebg-preview.png " onclick="ga(this)" alt="">
+</div>
+<div class="ccccc">
+    <img width="120px" height="90px" src="anh/trái dâu.name)" onclick="ga(this)" alt="">
+</div>
+</div>
+
+
+    </div>
+    <div class="kc">
+        <h2>Kích thước :</h3>
+            <div class="kt1">
+        <button  class="kt11"> Nhỏ</button>
+            </div>
+            <div class="kt2">
+                <button  class="kt11" >  Lớn</button>
+            </div>
+        </div>
+        <div class="sl">
+<h2>Số lượng</h2>
+<div class="daucong">
+    <button style="padding: 8px 13px; background-color: white; " onclick="cong()" >+</button>
+</div>
+<div class="dautru">
+    <button style="padding: 8px 15px; background-color: white;" onclick="tru()" >-</button>
+</div>
+<div class="ip">
+<input id="cc" data-price="150000"  style="width: 70px; height: 30px;"  type="number" value="0" >
+</div>
+        </div>
+       
+    <div class="chu3">
+        <h1 style="font-size: 40px; font-weight: bold; color: white; text-shadow: 0px 0px 3px red;" > DÂU TÂY </h1>
+        </div>
+        </div>
+        <div class="q2">
+            <div  > <img width="400px" height="270px" src="anh/dau-tay-removebg-preview.png" alt=""></div>
+            <div class="chu3">
+                <h1 style="font-size: 40px; font-weight: bold; color: white; text-shadow: 0px 0px 3px red;" > DÂU TÂY </h1>
+                </div>
+                <div class="chu4"> <h3 style="font-size: 18px; color: black; text-shadow: 0px 0px 3px red; ">
+                    Dâu tây chủ yếu bao gồm nước (91%) và carbohydrate (7,7%). <br>
+                     Chúng chỉ chứa một lượng nhỏ chất béo (0,3%) và protein (0,7%).
+                </h3></div>
+                <div class="kpt2">
+                    <h2 style="color: black; font-size: 19px; border: 1px solid black;">KHÁM PHÁ THÊM</h2>
+                        </div>
+        </div>
+        <div class="q3">
+            <div class="dau"  > <img width="400px" height="270px" src="anh/dau-removebg-preview.png " alt=""></div>
+            <div class="chu1">
+                <h1 style="font-size: 40px; font-weight: bold; color: white; text-shadow: 0px 0px 3px red;" > DÂU TÂY </h1>
+                </div>
+                <div class="chu2"> <h3 style="font-size: 17px; color: black; text-shadow: 0px 0px 3px red; " >
+                    Mangan (thường được tìm thấy với số lượng lớn trong ngũ cốc nguyên hạt,<br>
+                     các loại đậu, trái cây và rau quả) 
+                    Folate (vitamin B9) (folate rất quan trọng đối với sự phát triển mô  <br> và chức năng tế bào bình thường <br>
+                     đặc biệt cho phụ nữ mang thai và người lớn tuổi)
+                </h3>
+             </div>
+             <div class="kpt1">
+                <h2 style="color: black; font-size: 19px; border: 1px solid black;">KHÁM PHÁ THÊM</h2>
+                    </div>
+        </div>
+        <div class="HG"> <button class="hg" onclick="non()">HIỆN GIÁ</button ></div>
+    </article>
+    <script>
+function ga(x){
+    document.getElementById("hinh").src =  x.src
+}
+   var pro = document.getElementById("cc") 
+   var pros= pro.value
+//    console.log(pro);
+function cong(){
+    pros++
+    gay(pros)
+    tinhgia()   
+}
+function gay(pros)
+{
+   pro.value = pros
+}
+function tru(){
+    pros--
+    gay(pros)
+    tinhgia()
+
+}
+function tinhgia(){
+    var non = document.getElementById("cc")
+var gia = non.getAttribute("data-price")
+var soluong = document.getElementById("cc").value
+var  tonggia = soluong*gia
+document.getElementById("tonggia").innerText = tonggia
+
+}
+function non(){
+    tinhgia()
+}
+    </script>
+</body>
+</html>

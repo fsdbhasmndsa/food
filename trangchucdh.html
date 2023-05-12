@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<style>
+    .img {
+        animation-name: slice;
+        animation-duration: 4s;
+    }
+
+    @keyframes slice {
+        from {
+            opacity: 0;
+            filter: grayscale(100%)
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+</style>
+
+<body>
+    <header>
+        <div class="TC">
+            <h4>TRANG CHỦ</h4>
+        </div>
+        <div class="TD">
+            <h4>THỰC ĐƠN</h4>
+        </div>
+        <div class="VCT">
+            <h4>VỀ CHÚNG TÔI</h4>
+        </div>
+        <div class="DV">
+            <H4>DỊCH VỤ</H4>
+        </div>
+        <div class="avt">
+            <a href="dangnhap.html"><img width="40px" src="./anh/avata.png" alt=""></a>
+        </div>
+        <div class="shop">
+            <img onclick="showcart()" width="40px" src="./anh/shopping-bag.png" alt="">
+
+        </div>
+
+        <div class="logo">
+            <img width="40px" src="./anh/logo2.png" alt="">
+        </div>
+
+    </header>
+    <article>
+        <br>
+        <br>
+
+
+        <div
+            style="background-image: url(anh/br2.jpg); width: 600px; height: 275px; margin-left: 50px; border-radius:20px ;">
+            <div style="margin-left: 90px ; margin-top: 55px;  ; width: 250px; height: 200px; "> <img width="300px"
+                    src="anh/trái dâu.name)" alt=""></div>
+
+        </div>
+        <div id="card">
+
+
+            <br>
+
+
+        </div>
+        </div>
+
+        <div id="slice">
+        </div>
+
+        <!-- <div class="b1">
+<div class="k1">
+<img width="150px" src="./anh/kem.png" alt="">
+</div>
+    </div> -->
+        <div class="b1">
+            <div class="z1">
+                <img style="padding-left: 12px;" width="170px" src="./anh/kem.png" alt="">
+                <div class="ten22">
+                    <h3>
+                        Icecream
+                    </h3>
+                </div>
+                <div class="cn1">
+                    Chocolate & vanilla
+                </div>
+                <div class="gia1">
+                    <h3 style="color: red ; font-size: 20px;">$3</h3>
+                </div>
+            </div>
+            <div class="z2">
+                <img style="padding-left: 12px;" width="170px" src="./anh/gà.png" alt="">
+                <div class="ten23">
+                    <h3>
+                        Chicken Kebab
+                    </h3>
+                </div>
+                <div class="cn2">
+                    Mixed KeBab Plate
+                </div>
+                <div class="gia2">
+                    <h3 style="color: red ; font-size: 20px;">$30</h3>
+                </div>
+            </div>
+
+            <div class="z4">
+                <img style="padding-left: 12px;" width="170px" src="./anh/trái dâu.name)" alt="">
+                <div class="ten4">
+                    <h3>
+                        Strawberries
+                    </h3>
+                </div>
+                <div class="cn4">
+                    Fresh Strawberries
+                </div>
+                <div class="gia4">
+                    <h3 style="color: red ; font-size: 20px;">$5</h3>
+                </div>
+            </div>
+            <div class="z3">
+                <img style="padding-left: 12px;" width="170px" src="./anh/g3.png" alt="">
+                <div class="ten33">
+                    <h3> Manjoorion</h3>
+                </div>
+                <div class="cn3">
+                    Mixed KeBab Plate
+                </div>
+                <div class="gia3">
+                    <h3 style="color: red ; font-size: 20px;">$130</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="c4">
+            <h2>Our Fresh & Healthy Fruits</h2>
+        </div>
+        <div class="d1">
+            <div class="dau" data-id="1">
+                <a href="dau.html"><img width="180px" src="./anh/trái dâu.name)" alt=""></a>
+
+
+                
+                <div class="f1">
+                    <h2 class="dau" style="color: red;">Dâu tây</h3>
+                </div>
+
+                <div class="h1">
+                    <h3 class="dau" style="color: red;">4.000 đ</h3>
+                </div>
+                <div class="shop1">
+                    <img class="bntgh" width="30px" src="./anh/shopping-basket.png" onclic onclick="onCart(this)"k="onCart(this)" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="d2">
+            <div class="dau"  data-id="2">
+                <a class="dau" href="mamxoi.html"><img width="180px" src="./anh/dâu tằm.name)" alt=""></a>
+           
+
+           
+            <div class="f1">
+                <h2 class="dau" style="color: red;">Dâu tằm</h3>
+            </div>
+
+            <div class="h1">
+                <h3 class="dau" style="color: red;">10.000 đ</h3>
+            </div>
+            <div class="shop1">
+                <img class="bntgh" width="30px" src="./anh/shopping-basket.png" onclic onclick="onCart(this)"k="onCart(this)" alt="">
+            </div>
+        </div>
+        </div>
+        <div class="d3" >
+            <div class="dau" data-id="3">
+                <a class="dau" href="quadua.html"><img width="180px" src="./anh/trái dứa.name)" alt=""></a>
+
+      
+           
+            <div class="f1">
+                <h2 class="dau" style="color: red;">Quả dứa</h3>
+            </div>
+
+            <div class="h1">
+                <h3 class="dau" style="color: red;">20.000 đ</h3>
+            </div>
+            <div class="shop1">
+                <img width="30px" class="bntgh" src="./anh/shopping-basket.png" onclic onclick="onCart(this)"k="onCart(this)" alt="">
+            </div>
+        </div>
+        </div>
+        <div class="d4" >
+            <div class="dau" data-id="4">
+                <a class="dau" href="luu.html"><img width="180px" src="./anh/trái lựu.name)" alt=""></a>
+
+            
+           
+            <div class="f1">
+                <h2 class="dau" style="color: red; ">Quả lựu</h3>
+            </div>
+          
+            <div class="h1">
+                <h3 class="dau" style="color: red;">15.000 đ</h3>
+            </div>
+            <div class="shop1">
+                <img width="30px" class="bntgh" src="./anh/shopping-basket.png" onclic onclick="onCart(this)"k="onCart(this)" alt="">
+            </div>
+            <div class="g1">
+                <h4 class="dau" style="color: grey;"> 105 calo </h4>
+            </div>
+        </div>
+        </div>
+        <div class="c2">
+            <h2>TIỀM KIẾM NHANH</h2>
+        </div>
+        <div class="n1">
+            <div class="v1"> <a href="#div2"><img width="50px" src="./anh/food.png" alt=""></a></div>
+            <div class="m1">
+                <h3 style="color: black;"> thịt gà </h3>
+            </div>
+        </div>
+        <div class="n2">
+            <div class="v1"> <a href="h2o.html" target="pace"> <img width="50px" src="./anh/drink.png" alt=""></a></div>
+            <div class="m2">
+                <h3 style="color: black;"> nước ngọt </h3>
+            </div>
+        </div>
+        </div>
+        <div class="n3">
+            <div class="v1"> <a href="#div1"><img width="50px" src="./anh/apple.png" alt=""></a></div>
+            <div class="m1">
+                <h3 style="color: black;"> trái cây </h3>
+            </div>
+        </div>
+        </div>
+        <div class="n4">
+            <div class="v1"> <a href="ca.html" target="pace"><img width="50px" src="./anh/fish.png" alt=""></a></div>
+            <div class="m1">
+                <h3 style="color: black;"> thịt cá
+                </h3>
+            </div>
+        </div>
+        </div>
+        <div class="n5">
+            <div class="v1"> <a href="kem.html" target="pace"><img width="50px" src="./anh/ice-cream.png" alt=""></a>
+            </div>
+            <div class="m2">
+                <h3 style="color: black;"> kem ngọt </h3>
+            </div>
+        </div>
+        </div>
+        <div class="n9">
+            <h2 style="font-size: 30px; font-weight: bold;">Thức uống hợp tác</h2>
+        </div>
+
+        <div id="div2">
+            <div class="pl1" data-id="5">
+              <a href=""><img class="dau" width="190px" height="250px" src="./anh/pl1.png" alt=""></a>  
+                <div class="ten1">
+                    <h3 class="dau">Hồng Trà Chanh</h3>
+                </div>
+                <div class="gia9">
+                    <h2 class="dau" style="color: rgb(11, 241, 11);"> 50.000 đ </h2>
+                </div>
+
+                <div class="sshop2">
+                    <img class="bntgh" width="32px" src="./anh/shopping-basket.png" alt="" onclick="onCart(this)" onclick="onCart(this)">
+                </div>
+                <div class="dh">
+                    <button class="nutt" onclick="onCart(this)">Đặt Hàng</button>
+                </div>
+            </div>
+
+            <div class="pl2" data-id="6">
+                <a href=""><img width="190px" height="250px" src="./anh/pl2.png" alt=""></a>
+                <div class="ten1">
+                    <h3 class="dau">Matcha Đá Xay</h3>
+                </div>
+                <div class="gia9">
+                    <h2 class="dau" style="color: rgb(11, 241, 11);"> 50.000 đ </h2>
+                </div>
+                
+                <div class="sshop2">
+                    <img class="bntgh" width="32px" src="./anh/shopping-basket.png" alt="" onclick="onCart(this)" onclick="onCart(this)">
+                </div>
+                <div class="dh">
+                    <button class="nutt" onclick="onCart(this)">Đặt Hàng</button>
+                </div>
+            </div>
+            <div class="pl3" data-id="7">
+              <a href=""><img class="dau" width="190px" height="250px" src="./anh/pl3.png" alt=""></a>
+                <div class="ten1">
+                    <h3 class="dau">Trà Sữa Berry Berry</h3>
+                </div>
+                <div class="gia9">
+                    <h2 class="dau" style="color: rgb(11, 241, 11);"> 45.000 đ </h2>
+                </div>
+                
+                <div class="sshop2">
+                    <img class="bntgh" width="32px"  src="./anh/shopping-basket.png" alt="" onclick="onCart(this)" onclick="onCart(this)">
+                </div>
+                <div class="dh">
+                    <button class="nutt">Đặt Hàng</button>
+                </div>
+            </div>
+            <div class="pl4" data-id="8">
+              <a href=""><img class="dau" width="190px" height="250px" src="./anh/pl4.png" alt=""></a> 
+                <div class="ten1">
+                    <h3 class="dau">Cà Phê Đá Xay</h3>
+                </div>
+                <div class="gia9">
+                    <h2 class="dau" style="color: rgb(11, 241, 11);"> 50.000 đ </h2>
+                </div>
+               
+                <div class="sshop2">
+                    <img class="bntgh" width="32px" src="./anh/shopping-basket.png" alt="" onclick="onCart(this)">
+                </div>
+                <div class="dh">
+                    <button class="nutt">Đặt Hàng</button>
+                </div>
+            </div>
+
+            <div class="pl5" data-id="9">
+             <a href=""><img class="dau" width="190px" height="250px" src="./anh/pl5.png" alt=""></a>
+                <div class="ten99">
+                    <h3 class="dau">Oreo Cà Phê Sữa Đá Xay</h3>
+                </div>
+                <div class="gia9">
+                    <h2 class="dau" style="color: rgb(11, 241, 11);"> 50.000 đ </h2>
+                </div>
+              
+                <div class="sshop2">
+                    <img class="bntgh" width="32px" src="./anh/shopping-basket.png" alt="" onclick="onCart(this)">
+                </div>
+                <div class="dh">
+                    <button class="nutt">Đặt Hàng</button>
+                </div>
+            </div>
+            <div class="pl6" data-id="10">
+            <a href=""><img class="dau" width="190px" height="250px" src="./anh/pl6.png" alt=""></a> 
+                <div class="ten1">
+                    <h3 class="dau">Hồng Trà Đác Cam </h3>
+                </div>
+                <div class="gia9">
+                    <h2 class="dau" style="color: rgb(11, 241, 11);"> 50.000 đ </h2>
+                </div>
+              
+                <div class="sshop2">
+                    <img class="bntgh" width="32px" src="./anh/shopping-basket.png" alt="" onclick="onCart(this)">
+                </div>
+                <div class="dh">
+                    <button class="nutt">Đặt Hàng</button>
+                </div>
+            </div>
+            <div class="pl7" data-id="11">
+              <a href=""><img class="dau" width="190px" height="250px" src="./anh/pl7.png" alt=""></a>
+                <div class="ten8">
+                    <h3 class="dau">Lucky Tea</h3>
+                </div>
+                <div class="gia9">
+                    <h2 class="dau" style="color: rgb(11, 241, 11);"> 55.000 đ </h2>
+                </div>
+                
+                <div class="sshop2">
+                    <img class="bntgh" width="32px" src="./anh/shopping-basket.png" alt="" onclick="onCart(this)">
+                </div>
+                <div class="dh">
+                    <button class="nutt">Đặt Hàng</button>
+                </div>
+            </div>
+            <div class="pl8" data-id="12">
+              <a href=""><img class="dau" width="190px" height="250px" src="./anh/pl8.png" alt=""></a>
+                <div class="ten1">
+                    <h3 class="dau">Hồng Trà Sữa</h3>
+                </div>
+                <div class="gia9">
+                    <h2 class="dau" style="color: rgb(11, 241, 11);">55.000 đ </h2>
+                </div>
+                
+                <div class="sshop2">
+                    <img class="bntgh" width="32px" src="./anh/shopping-basket.png" alt="" onclick="onCart(this)">
+                </div>
+                <div class="dh">
+                    <button class="nutt">Đặt Hàng</button>
+                </div>
+            </div>
+        </div>
+        <div class="bsl">
+            <h1 style="font-size: 40px; font-weight: bold;"> Best Sale </h1>
+        </div>
+        <div id="div1">
+            <div class="n11" data-id="13">
+                <a href=""><img class="dau" width="180px" src="./anh/ga6.name)" alt=""></a>
+               
+                <div class="f1">
+                    <h2 class="dau" style="color: red; font-size: 20px;">Gà Chiên</h3>
+                </div>
+               
+                <div class="h1">
+                    <h3 class="dau" style="color: red;">$20 </h3>
+                </div>
+                <div class="shop1">
+                    <img class="bntgh" width="30px" src="./anh/shopping-basket.png" alt="" onclick="onCart(this)">
+                </div>
+                <div class="g1">
+                    <h4 class="dau" style="color: grey;"> 2010 calo </h4>
+                </div>
+            </div>
+            <div class="n12" data-id="14">
+             <a href=""><img class="dau" width="180px" src="./anh/ga7.name)" alt=""></a>
+               
+                <div class="f1">
+                    <h2 class="dau" style="color: red; font-size: 20px;">Gà Sa Tế</h3>
+                </div>
+             
+                <div class="h1">
+                    <h3 class="dau" style="color: red;">$420 </h3>
+                </div>
+                <div class="shop1">
+                    <img class="bntgh" width="30px" src="./anh/shopping-basket.png" alt="" onclick="onCart(this)">
+                </div>
+                <div class="g1">
+                    <h4 class="dau" style="color: grey;"> 2400 calo </h4>
+                </div>
+            </div>
+            <div class="n13">
+                <img class="dau" width="180px" src="./anh/ga8.name)" alt="">
+                <div class="shop1">
+                    <img class="bntgh" width="30px" src="./anh/shopping-basket.png" alt="" onclick="onCart(this)">
+                </div>
+                <div class="f1">
+                    <h2 class="dau" style="color: red; font-size: 20px;">Gà Nướng</h3>
+                </div>
+                <div class="g1">
+                    <h4 class="dau" style="color: grey;"> 1020 calo </h4>
+                </div>
+                <div class="h1">
+                    <h3 class="dau" style="color: red;">$50 </h3>
+                </div>
+            </div>
+            <div class="n14">
+                <img class="dau" width="180px" src="./anh/ga9.name)" alt="">
+                <div class="shop1">
+                    <img class="bntgh" width="30px" src="./anh/shopping-basket.png" alt="" onclick="onCart(this)">
+                </div>
+                <div class="f1">
+                    <h2 class="dau" style="color: red; font-size: 20px;">Gà Full</h3>
+                </div>
+                <div class="g1">
+                    <h4 class="dau" style="color: grey;"> 3100 calo </h4>
+                </div>
+                <div class="h1">
+                    <h3 class="dau" style="color: red;">$120 </h3>
+                </div>
+            </div>
+            <div class="n15">
+                <img class="dau" width="180px" src="./anh/t1.png" alt="">
+                <div class="shop1">
+                    <img class="bntgh" width="30px" src="./anh/shopping-basket.png" alt="" onclick="onCart(this)">
+                </div>
+                <div class="f1">
+                    <h2 class="dau" style="color:  rgb(8, 236, 8); font-size: 20px;">cherry</h3>
+                </div>
+                <div class="g1">
+                    <h4 class="dau" style="color: grey;"> 3100 calo </h4>
+                </div>
+                <div class="h1">
+                    <h3 class="dau" style="color: red;">$120 </h3>
+                </div>
+            </div>
+            <div class="n16">
+                <img class="dau" width="180px" src="./anh/t2.jpg" alt="">
+                <div class="shop1">
+                    <img class="bntgh" width="30px" src="./anh/shopping-basket.png" alt="" onclick="onCart(this)">
+                </div>
+                <div class="f1">
+                    <h2 class="dau" style="color:  rgb(8, 236, 8); font-size: 20px;">Việt Quốc</h3>
+                </div>
+                <div class="g1">
+                    <h4 class="dau" style="color: grey;"> 3100 calo </h4>
+                </div>
+                <div class="h1">
+                    <h3 class="dau" style="color: red;">$120 </h3>
+                </div>
+            </div>
+            <div class="n17">
+                <img class="dau" width="180px" src="./anh/t6.name)" alt="">
+                <div class="shop1">
+                    <img class="bntgh" width="30px" src="./anh/shopping-basket.png" alt="" onclick="onCart(this)">
+                </div>
+                <div class="f1">
+                    <h2 class="dau" style="color:  rgb(8, 236, 8); font-size: 20px;">Dâu Tằm</h3>
+                </div>
+                <div class="g1">
+                    <h4 class="dau" style="color: grey;"> 3100 calo </h4>
+                </div>
+                <div class="h1">
+                    <h3 class="dau" style="color: red;">$120 </h3>
+                </div>
+            </div>
+            <div class="n18">
+                <img class="dau" width="170px" src="./anh/t4.png" alt="">
+                <div class="shop1">
+                    <img class="bntgh" width="30px" src="./anh/shopping-basket.png" alt="" onclick="onCart(this)">
+                </div>
+                <div class="f1">
+                    <h2 class="dau" style="color: rgb(8, 236, 8); font-size: 20px;">Dưa Hấu</h3>
+                </div>
+                <div class="g1">
+                    <h4 class="dau" style="color: grey;"> 3100 calo </h4>
+                </div>
+                <div class="h1">
+                    <h3 class="dau" style="color: red;">$120 </h3>
+                </div>
+            </div>
+        </div>
+        <div class="banner">
+            <img id="hinh" src="anh/s0.jpg" alt="" class="img">
+            <div class="benphai">
+                <img width="35px" src="./anh/right-arrow.png" alt="" onclick="tiep()">
+            </div>
+            <div class="bentrai">
+                <img width="35px" src="./anh/left-arrow.png" alt="" onclick="ve()">
+            </div>
+
+        </div>
+
+        <div class="nutnho">
+            <input class="nuttnho" type="button" value="<">
+        </div>
+        <div class="nutlon">
+            <input class="nuttlon" type="button" value=">">
+        </div>
+        <div class="cln">
+            <h1 style="color: blue; font-size: 40px; font-weight: bold;">Các Loại Nước</h1>
+        </div>
+        <div class="n19">
+            <img class="dau" width="120px " height="150px" style="padding-left: 2px; padding-top: 10px;"
+                src="anh/n1.name)" alt="">
+            <div class="shop1">
+                <img class="bntgh" width="30px" src="./anh/shopping-basket.png" alt="" onclick="onCart(this)">
+            </div>
+            <div class="f1">
+                <h2 class="dau" style="color: red; font-size: 20px;">cocacola</h3>
+            </div>
+            <div class="g1">
+                <h4 class="dau" style="color: grey;"> 3100 calo </h4>
+            </div>
+            <div class="h1">
+                <h3 class="dau" style="color: red;">$1 </h3>
+            </div>
+        </div>
+        <div class="n20">
+            <img class="dau" width="120px " height="150px" style="padding-left: 2px; padding-top: 10px;"
+                src="anh/n2.name)" alt="">
+
+            <div class="shop1">
+                <img class="bntgh" width="30px" src="./anh/shopping-basket.png" alt="" onclick="onCart(this)">
+            </div>
+            <div class="f1">
+                <h2 class="dau" style="color: red; font-size: 20px;">Pepsi</h3>
+            </div>
+            <div class="g1">
+                <h4 class="dau" style="color: grey;"> 3100 calo </h4>
+            </div>
+            <div class="h1">
+                <h3 class="dau" style="color: red;">$1 </h3>
+            </div>
+        </div>
+        <div class="n21">
+            <img class="dau" width="130px " height="150px" style="padding-left: 2px; padding-top: 10px;"
+                src="anh/n3.name)" alt="">
+            <div class="shop1">
+                <img class="bntgh" width="30px" src="./anh/shopping-basket.png" alt="" onclick="onCart(this)">
+            </div>
+            <div class="f1">
+                <h2 class="dau" style="color: rgb(8, 236, 8); font-size: 20px;">Red bull</h3>
+            </div>
+            <div class="g1">
+                <h4 class="dau" style="color: grey;"> 3100 calo </h4>
+            </div>
+            <div class="h1">
+                <h3 class="dau" style="color: red;">$1 </h3>
+            </div>
+        </div>
+        <div class="n22">
+            <img class="dau" width="130px " height="150px" style="padding-left: 2px; padding-top: 10px;"
+                src="anh/n4.name)" alt="">
+            <div class="shop1">
+                <img class="bntgh" width="30px" src="./anh/shopping-basket.png" alt="" onclick="onCart(this)">
+            </div>
+            <div class="f1">
+                <h2 class="dau" style="color: rgb(8, 236, 8); font-size: 20px;">Monter</h3>
+            </div>
+            <div class="g1">
+                <h4 class="dau" style="color: grey;"> 3100 calo </h4>
+            </div>
+            <div class="h1">
+                <h3 class="dau" style="color: red;">$12 </h3>
+            </div>
+        </div>
+        <div class="n23">
+            <img class="dau" width="100px " height="150px" style="padding-left: 2px; padding-top: 10px;"
+                src="anh/n5.name)" alt="">
+            <div class="shop1">
+                <img class="bntgh" width="30px" src="./anh/shopping-basket.png" alt="" onclick="onCart(this)">
+            </div>
+            <div class="f1">
+                <h2 class="dau" style="color: red; font-size: 20px;">Sprite</h3>
+            </div>
+            <div class="g1">
+                <h4 class="dau" style="color: grey;"> 3100 calo </h4>
+            </div>
+            <div class="h1">
+                <h3 class="dau" style="color: red;">$1 </h3>
+            </div>
+        </div>
+        <div class="n24">
+            <img class="dau" width="140px " height="150px" style="padding-left: 2px; padding-top: 10px;"
+                src="anh/n6.name)" alt="">
+            <div class="shop1">
+                <img class="bntgh" width="30px" src="./anh/shopping-basket.png" alt="" onclick="onCart(this)">
+            </div>
+            <div class="f1">
+                <h2 class="dau" style="color: red; font-size: 20px;">Fanta</h3>
+            </div>
+            <div class="g1">
+                <h4 class="dau" style="color: grey;"> 3100 calo </h4>
+            </div>
+            <div class="h1">
+                <h3 class="dau" style="color: red;">$1 </h3>
+            </div>
+        </div>
+        <div class="n25">
+            <img width="300px" height="170px" src="anh/anhhaha.jpg" alt="">
+        </div>
+        <div class="n26">
+            <img width="300px" height="170px" src="anh/anhhaha.jpg" alt="">
+        </div>
+
+    </article>
+
+
+</body>
+
+</html>
+<script src="app.js">
+
+
+</script>

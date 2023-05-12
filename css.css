@@ -1,0 +1,1232 @@
+header {
+
+    width: 100%;
+    height: 70px;
+    background-color: aqua;
+}
+
+.TC {
+    position: absolute;
+    top: 20px;
+    left: 500px;
+    text-decoration: none;
+}
+
+.h4 {
+    text-decoration: none;
+}
+
+.TD {
+    position: absolute;
+    top: 20px;
+    left: 650px;
+}
+
+.VCT {
+    position: absolute;
+    top: 20px;
+    left: 780px;
+}
+
+.DV {
+    position: absolute;
+    top: 20px;
+    left: 1000px;
+}
+
+.avt {
+    position: absolute;
+    top: 22px;
+    left: 1250px;
+}
+
+article {
+    position: absolute;
+    top: 70px;
+    width: 100%;
+    height: 3800px;
+    background-color: whitesmoke;
+}
+
+.shop img {
+    position: absolute;
+    top: 20px;
+    left: 1150px;
+}
+
+.chu {
+    position: absolute;
+    top: 1px;
+    left: 50px;
+}
+
+.nutgh {
+    position: absolute;
+    top: 40px;
+    left: 50px;
+}
+
+.nut {
+
+    background-color: coral;
+    border: none;
+    border-radius: 6px;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+
+.b1 {
+    position: absolute;
+    width: 450px;
+    height: 600px;
+    top: 100px;
+    left: 820px;
+    border-radius: 20px;
+    background-image: url(./anh/br2.jpg);
+}
+
+.nuto {
+    padding: 7px 20px;
+    background-color: blue;
+    border-radius: 4px;
+    border: none;
+
+}
+
+.nutod {
+    position: absolute;
+    top: 630px;
+    left: 50px;
+}
+
+.nuto h5 {
+    font-size: 10px;
+}
+
+.c4 {
+    position: absolute;
+    top: 750px;
+    left: 50px;
+}
+
+.d1 {
+    position: absolute;
+    top: 830px;
+    left: 10px;
+    background-color: white;
+    height: 170px;
+    width: 300px;
+    border-radius: 5px;
+    transition: width 1s, transform 1s;
+}
+
+.d2 {
+    position: absolute;
+    top: 830px;
+    left: 340px;
+    background-color: white;
+    height: 170px;
+    width: 300px;
+    border-radius: 5px;
+    transition: width 1s, transform 1s;
+}
+
+.d3 {
+    position: absolute;
+    top: 830px;
+    left: 680px;
+    background-color: white;
+    height: 170px;
+    width: 300px;
+    border-radius: 5px;
+    transition: width 1s, transform 1s;
+}
+
+.d3 img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.d1 img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.d2 img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.d4 img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.d4 {
+    position: absolute;
+    top: 830px;
+    left: 1020px;
+    background-color: white;
+    height: 170px;
+    width: 300px;
+    border-radius: 5px;
+    transition: width 1s, transform 1s;
+}
+
+.z1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: rgba(355, 355, 355, 0.2);
+    width: 180px;
+    border-radius: 7px;
+    height: 260px;
+}
+
+.z2 {
+    position: absolute;
+    top: 20px;
+    left: 230px;
+    background: rgba(355, 355, 355, 0.2);
+    width: 180px;
+    border-radius: 7px;
+    height: 260px;
+}
+
+.z3 {
+    position: absolute;
+    top: 300px;
+    left: 20px;
+    background: rgba(355, 355, 355, 0.2);
+    width: 180px;
+    border-radius: 7px;
+    height: 260px;
+}
+
+.z4 {
+    position: absolute;
+    top: 300px;
+    left: 230px;
+    background: rgba(355, 355, 355, 0.2);
+    width: 180px;
+    border-radius: 7px;
+    height: 260px;
+}
+
+.ten22 {
+    position: absolute;
+    top: 155px;
+    left: 50px;
+}
+
+.cn1 {
+    position: absolute;
+    top: 210px;
+    left: 30px;
+}
+
+.gia1 {
+    position: absolute;
+    top: 215px;
+    left: 73px;
+}
+
+.ten23 {
+    position: absolute;
+    top: 155px;
+    left: 40px;
+}
+
+.cn2 {
+    position: absolute;
+    top: 210px;
+    left: 30px;
+}
+
+.gia2 {
+    position: absolute;
+    top: 215px;
+    left: 73px;
+}
+
+.ten33 {
+    position: absolute;
+    top: 155px;
+    left: 40px;
+}
+
+.cn3 {
+    position: absolute;
+    top: 210px;
+    left: 30px;
+}
+
+.gia3 {
+    position: absolute;
+    top: 215px;
+    left: 73px;
+}
+
+.ten4 {
+    position: absolute;
+    top: 155px;
+    left: 40px;
+}
+
+.cn4 {
+    position: absolute;
+    top: 210px;
+    left: 30px;
+}
+
+.gia4 {
+    position: absolute;
+    top: 215px;
+    left: 73px;
+}
+
+.shop1 {
+    position: absolute;
+    top: 20px;
+    left: 240px;
+
+}
+
+.f1 {
+    position: absolute;
+    top: 43px;
+    left: 210px;
+}
+
+.g1 {
+    position: absolute;
+    top: 90px;
+    left: 230px;
+}
+
+.h1 {
+    position: absolute;
+    top: 120px;
+    left: 230px;
+}
+
+.c2 {
+    position: absolute;
+    top: 1040px;
+    left: 45%;
+}
+
+.n1 {
+    position: absolute;
+    top: 1150px;
+    left: 210px;
+    background-color: white;
+    width: 130px;
+    height: 150px;
+    border-radius: 6px;
+}
+
+.n2 {
+    position: absolute;
+    top: 1150px;
+    left: 410px;
+    background-color: white;
+    width: 130px;
+    height: 150px;
+    border-radius: 6px;
+}
+
+.n3 {
+    position: absolute;
+    top: 1150px;
+    left: 610px;
+    background-color: white;
+    width: 130px;
+    height: 150px;
+    border-radius: 6px;
+}
+
+.n4 {
+    position: absolute;
+    top: 1150px;
+    left: 810px;
+    background-color: white;
+    width: 130px;
+    height: 150px;
+    border-radius: 6px;
+}
+
+.n5 {
+    position: absolute;
+    top: 1150px;
+    left: 1010px;
+    background-color: white;
+    width: 130px;
+    height: 150px;
+    border-radius: 6px;
+}
+
+.n1:hover {
+    background-color: red;
+}
+
+.n2:hover {
+    background-color: red;
+}
+
+.n3:hover {
+    background-color: red;
+}
+
+.n4:hover {
+    background-color: red;
+}
+
+.n5:hover {
+    background-color: red;
+}
+
+.v1 {
+    position: absolute;
+    top: 48px;
+    left: 45px;
+}
+
+.m1 {
+    position: absolute;
+    top: 95px;
+    left: 45px;
+}
+
+.m2 {
+    position: absolute;
+    top: 95px;
+    left: 32px;
+}
+
+nav {
+    position: absolute;
+    top: 1450px;
+    width: 100%;
+    height: 600px;
+    background-color: whitesmoke;
+}
+
+.n9 {
+    position: absolute;
+    top: 1400px;
+    left: 45%;
+}
+
+.pl1 {
+    position: absolute;
+    top: 1530px;
+    ;
+    left: 30px;
+    background-color: white;
+    width: 300px;
+    height: 430px;
+    border-radius: 10px;
+}
+
+.pl1 img {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+
+.pl2 {
+    position: absolute;
+    top: 1530px;
+    ;
+    left: 370px;
+    background-color: white;
+    width: 300px;
+    height: 430px;
+    border-radius: 10px;
+}
+
+.pl2 img {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+
+.pl3 {
+    position: absolute;
+    top: 1530px;
+    ;
+    left: 710px;
+    background-color: white;
+    width: 300px;
+    height: 430px;
+    border-radius: 10px;
+}
+
+.pl3 img {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+
+.pl4 {
+    position: absolute;
+    top: 1530px;
+    ;
+    left: 1050px;
+    background-color: white;
+    width: 300px;
+    height: 430px;
+    border-radius: 10px;
+}
+
+.pl4 img {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+
+.pl5 {
+    position: absolute;
+    top: 2030px;
+    ;
+    left: 30px;
+    background-color: white;
+    width: 300px;
+    height: 430px;
+    border-radius: 10px;
+}
+
+.pl5 img {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+
+.pl6 {
+    position: absolute;
+    top: 2030px;
+    ;
+    left: 370px;
+    background-color: white;
+    width: 300px;
+    height: 430px;
+    border-radius: 10px;
+}
+
+.pl6 img {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+
+.pl7 {
+    position: absolute;
+    top: 2030px;
+    ;
+    left: 710px;
+    background-color: white;
+    width: 300px;
+    height: 430px;
+    border-radius: 10px;
+}
+
+.pl7 img {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+
+.pl8 {
+    position: absolute;
+    top: 2030px;
+    ;
+    left: 1050px;
+    background-color: white;
+    width: 300px;
+    height: 430px;
+    border-radius: 10px;
+}
+
+.pl8 img {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+
+.ten1 {
+    position: absolute;
+    top: 280px;
+    left: 80px;
+}
+
+.ten99 {
+    position: absolute;
+    top: 280px;
+    left: 20px;
+}
+
+.ten8 {
+    position: absolute;
+    top: 280px;
+    left: 90px;
+}
+
+.dh {
+    position: absolute;
+    top: 390px;
+    left: 85px;
+}
+
+.nutt {
+    padding: 8px 40px;
+    border-radius: 5px;
+    background-color: blue;
+    border: none
+}
+
+.gia9 {
+    position: absolute;
+    top: 322px;
+    left: 100px;
+}
+
+.sshop2 {
+    position: absolute;
+    top: 15px;
+    left: 200px;
+}
+
+.pl1 img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.pl2 img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.pl3 img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.pl4 img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.pl5 img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.pl6 img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.pl7 img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.pl8 img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.nutt:hover {
+    background-color: red;
+    color: white;
+}
+
+.z1 img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.z2 img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.z3 img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.z4 img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.traicay {
+    position: absolute;
+    top: 2530px;
+    left: 45%;
+}
+
+.t11 {
+    position: absolute;
+    top: 2650px;
+    left: 30px;
+    width: 200px;
+    height: 150px;
+    background-color: white;
+}
+
+.TC:hover {
+    color: red;
+}
+
+.TD:hover {
+    color: red;
+}
+
+.VCT:hover {
+    color: red;
+}
+
+.DV:hover {
+    color: red;
+}
+
+.bsl {
+    position: absolute;
+    top: 2520px;
+    left: 45%;
+}
+
+.n11 {
+    position: absolute;
+    top: 2680px;
+    left: 30px;
+    height: 170px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.n12 {
+    position: absolute;
+    top: 2680px;
+    left: 340px;
+    height: 170px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.n13 {
+    position: absolute;
+    top: 2680px;
+    left: 680px;
+    height: 170px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.n14 {
+    position: absolute;
+    top: 2680px;
+    left: 1020px;
+    height: 170px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.n15 {
+    position: absolute;
+    top: 2930px;
+    left: 30px;
+    height: 170px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.n16 {
+    position: absolute;
+    top: 2930px;
+    left: 340px;
+    height: 170px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.n17 {
+    position: absolute;
+    top: 2930px;
+    left: 680px;
+    height: 170px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.n18 {
+    position: absolute;
+    top: 2930px;
+    left: 1020px;
+    height: 170px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.n11 img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.n11 img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.n12 img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.n13 img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.n14 img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.n15 img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.n16 img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.n17 img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.n18 img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.banner {
+    position: absolute;
+    top: 400px;
+    left: 50px;
+}
+
+.br3 {
+    position: absolute;
+    top: 80px;
+    left: 50px;
+
+    width: 600px;
+    height: 275px;
+    background-image: url(./anh/br2.jpg);
+    border-radius: 20px;
+}
+
+.z5 {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background: rgba(355, 355, 355, 0.2);
+    width: 250px;
+    border-radius: 7px;
+    height: 220px;
+}
+
+.z6 {
+    position: absolute;
+    top: 30px;
+    left: 330px;
+    background: rgba(355, 355, 355, 0.2);
+    width: 250px;
+    border-radius: 7px;
+    height: 220px;
+}
+
+.ten12 {
+    position: absolute;
+    top: 130px;
+    left: 50px;
+}
+
+.cn12 {
+    position: absolute;
+    top: 190px;
+    left: 50px;
+}
+
+.gia12 {
+    position: absolute;
+    top: 130px;
+    left: 200px;
+}
+
+.aa12 {
+    position: absolute;
+    left: 60px;
+}
+
+.nuttnho {
+    padding: 6px 9px;
+    background-color: orangered;
+    border: none;
+    border-radius: 3px;
+}
+
+.nuttlon {
+    padding: 6px 9px;
+    background-color: orangered;
+    border: none;
+    border-radius: 3px;
+}
+
+.nutnho {
+    position: absolute;
+    top: 775px;
+    left: 1200px;
+}
+
+.nutlon {
+    position: absolute;
+    top: 775px;
+    left: 1240px;
+}
+
+.nuttlon:hover {
+    background-color: blue;
+    color: white;
+}
+
+.nuttnho:hover {
+    background-color: blue;
+    color: white;
+}
+
+.benphai {
+    position: absolute;
+    top: 150px;
+    left: 560px;
+}
+
+.bentrai {
+    position: absolute;
+    top: 150px;
+    left: 10px;
+}
+
+.cln {
+    position: absolute;
+    top: 3130px;
+    left: 38%;
+}
+
+.n19 {
+    position: absolute;
+    top: 3290px;
+    left: 30px;
+    height: 170px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.n20 {
+    position: absolute;
+    top: 3290px;
+    left: 340px;
+    height: 170px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.n21 {
+    position: absolute;
+    top: 3290px;
+    left: 680px;
+    height: 170px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.n22 {
+    position: absolute;
+    top: 3290px;
+    left: 1020px;
+    height: 170px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.n23 {
+    position: absolute;
+    top: 3530px;
+    left: 30px;
+    height: 170px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.n24 {
+    position: absolute;
+    top: 3530px;
+    left: 340px;
+    height: 170px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.n25 {
+    position: absolute;
+    top: 3530px;
+    left: 680px;
+    height: 170px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.n26 {
+    position: absolute;
+    top: 3530px;
+    left: 1020px;
+    height: 170px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#card {
+    position: absolute;
+    left: 50px;
+    top: 45px;
+    padding: 10px;
+    background-color: white;
+    border: 1px red solid;
+    width: 600px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+#card img {
+    width: 50px;
+    height: 50px;
+}
+
+.bntgh {
+    display: none;
+}
+
+.d1:hover .bntgh {
+    display: block;
+    opacity: 0,9;
+}
+
+.d2:hover .bntgh {
+    display: block;
+}
+
+.d3:hover .bntgh {
+    display: block;
+}
+
+.d4:hover .bntgh {
+    display: block;
+}
+
+.pl1:hover .bntgh {
+    display: block;
+}
+
+.pl2:hover .bntgh {
+    display: block;
+}
+
+.pl3:hover .bntgh {
+    display: block;
+}
+
+.pl4:hover .bntgh {
+    display: block;
+}
+
+.pl5:hover .bntgh {
+    display: block;
+}
+
+.pl6:hover .bntgh {
+    display: block;
+}
+
+.pl7:hover .bntgh {
+    display: block;
+}
+
+.pl8:hover .bntgh {
+    display: block;
+}
+
+.n11:hover .bntgh {
+    display: block;
+}
+
+.n12:hover .bntgh {
+    display: block;
+}
+
+.n13:hover .bntgh {
+    display: block;
+}
+
+.n14:hover .bntgh {
+    display: block;
+}
+
+.n15:hover .bntgh {
+    display: block;
+}
+
+.n16:hover .bntgh {
+    display: block;
+}
+
+.n17:hover .bntgh {
+    display: block;
+}
+
+.n18:hover .bntgh {
+    display: block;
+}
+
+.n19:hover .bntgh {
+    display: block;
+}
+
+.n20:hover .bntgh {
+    display: block;
+}
+
+.n21:hover .bntgh {
+    display: block;
+}
+
+.n22:hover .bntgh {
+    display: block;
+}
+
+.n24:hover .bntgh {
+    display: block;
+}
+
+.n23:hover .bntgh {
+    display: block;
+}
+
+.d1:hover .dau {
+    opacity: 0.5;
+}
+
+.d2:hover .dau {
+    opacity: 0.5;
+}
+
+.d3:hover .dau {
+    opacity: 0.5;
+}
+
+.d4:hover .dau {
+    opacity: 0.5;
+}
+
+.pl1:hover .dau {
+    opacity: 0.5;
+}
+
+.pl2:hover .dau {
+    opacity: 0.5;
+}
+
+.pl3:hover .dau {
+    opacity: 0.5;
+}
+
+.pl4:hover .dau {
+    opacity: 0.5;
+}
+
+.pl5:hover .dau {
+    opacity: 0.5;
+}
+
+.pl6:hover .dau {
+    opacity: 0.5;
+}
+
+.pl7:hover .dau {
+    opacity: 0.5;
+}
+
+.pl8:hover .dau {
+    opacity: 0.5;
+}
+
+.n11:hover .dau {
+    opacity: 0.5;
+}
+
+.n12:hover .dau {
+    opacity: 0.5;
+}
+
+.n13:hover .dau {
+    opacity: 0.5;
+}
+
+.n14:hover .dau {
+    opacity: 0.5;
+}
+
+.n15:hover .dau {
+    opacity: 0.5;
+}
+
+.n16:hover .dau {
+    opacity: 0.5;
+}
+
+.n17:hover .dau {
+    opacity: 0.5;
+}
+
+.n18:hover .dau {
+    opacity: 0.5;
+}
+
+.n19:hover .dau {
+    opacity: 0.5;
+}
+
+.n20:hover .dau {
+    opacity: 0.5;
+}
+
+.n21:hover .dau {
+    opacity: 0.5;
+}
+
+.n22:hover .dau {
+    opacity: 0.5;
+}
+
+.n23:hover .dau {
+    opacity: 0.5;
+}
+
+.n24:hover .dau {
+    opacity: 0.5;
+}
+
+.cart table {
+    width: 100%;
+}

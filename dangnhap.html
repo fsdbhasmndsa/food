@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="login.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    
+body{
+   background-image: url(anh/aurora-1197753_1920.jpg);
+}
+
+</style>
+<body>
+    <div class="br">
+<div class="logo"> <img width="45px" src="anh/logo2.png" alt=""></div>
+<div class="ten" >FOOD and Drink</div>
+<div class="dc"> Log in to your account</div>
+<ul id="showerror" style="color: red;"></ul>
+<form  action="trangchu.html"   onsubmit="return true" >
+    <div class="ip1">
+        <input type="text" name="username" class="ip2" id="name"  placeholder="TÊN ĐĂNG NHẬP"><br>
+       
+    </div>
+     <span  id="erro"> </span>
+    <div class="ip3">
+  <input type="text" name="password" class="ip4" id="pw" placeholder="password"><br>
+    </div>
+    <span id="loi"> </span>
+</form>
+<div class="submit">
+<button class="sm1" onclick=" kiemtra()">  ĐĂNG NHẬP</button>
+</div>
+<div class="username1"><img width="22px" src="anh/user.png" alt=""></div>
+<div class="pasword1"><img width="22px" src="anh/padlock.png" alt=""></div>
+    </div>
+    <div class="logup"> 
+      <a href="dangki.html"><button class="dk">ĐĂNG KÍ</button></a>
+    </div>
+</body>
+   
+       
+</html>
+<script>
+  function kiemtra(){
+  var fullname =   document.getElementById("name").value
+  if (fullname=="")
+  {
+    document.getElementById("erro").innerHTML = "mày chưa nhập tài khỏan"
+    
+  }
+  else{
+    document.getElementById("erro").innerHTML = ""
+   
+  }
+  var password = document.getElementById("pw").value
+  if(password == ""){
+    document.getElementById("loi").innerHTML = "mày chưa nhập vật khẩu"
+    
+  }
+  else{
+    document.getElementById("loi").innerHTML = ""
+   
+  }}
+  
+  // cách alet
+//      var arr = document.getElementsByTagName("input")
+//    function kiemtra() {
+   
+//  var tk = arr[0].value;
+//  var mk = arr[1].value;
+//  if(tk ==""  )
+//  {
+//     alert("không được để tài khoản trống")
+//  }
+//  else if(mk ==""){
+//     alert("không được để MẬT KHẨU trống")
+//  }
+//   else{
+//     lienkettrong()
+//   }  
+//    }
+//    function lienkettrong(){
+//     location.href = "trangchu.html";
+//         }
+</script>
